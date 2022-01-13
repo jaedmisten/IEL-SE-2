@@ -1,9 +1,9 @@
 A live version of this web application can be viewed here: http://distance.techgeekgalaxy.com
 
 This was written with the following:
-Laravel 8
-MySQL
-jQuery 3.6
+Laravel 8,
+MySQL,
+jQuery 3.6,
 Bootstrap 5.1.3
 
 This web app accepts two or more zipcodes and calculates the distance to travel 

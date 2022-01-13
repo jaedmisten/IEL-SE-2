@@ -14,6 +14,6 @@ is used to add additional zipcode inputs. Additional zipcode input fields have a
 remove link next to them to remove the field from the DOM.
 
 The 'calculate_distance_app.sql' in the root of this project is the database schema
-needed for this app. It is configured to be imported into a database named
+needed for this app. It is configured to be imported into a MySQL database named
 calculate_distance_app and create a table named zipcodes and then import zipcodes
 with their latitude/longitude coordinates.

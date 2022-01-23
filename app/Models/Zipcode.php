@@ -9,6 +9,8 @@ class Zipcode extends Model
 {
     use HasFactory;
     
+    public $timestamps = false;
+    
     public function getCoordinates($zipcodes) 
     {
         $coordinates = [

@@ -17,11 +17,11 @@ remove link next to them to remove the field from the DOM.
 This app requires a database with a table named `zipcodes` with data for the
 zipcode, latitude, and longitude. There are two options to import this data.
 
-    1. Use the command "php artisan migrate" to run the migration to create the 
+1. Use the command "php artisan migrate" to run the migration to create the 
 `zipcodes` table. Then run the custom artisan command "php artisan import:zipcodes"
 to import the zipcode data from a spreadsheet into the `zipcodes` table.
 
-    2. The 'calculate_distance_app.sql' in the root of this project is the database 
+2. The 'calculate_distance_app.sql' in the root of this project is the database 
 schema needed for this app. It is configured to be imported into a MySQL database 
 named calculate_distance_app and create a table named zipcodes and then import 
 zipcodes with their latitude/longitude coordinates.
